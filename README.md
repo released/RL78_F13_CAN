@@ -31,14 +31,12 @@ udpate @ 2024/07/16
 
 8. below is MCU transmit CAN bus data to PCAN 
 
-data increase 1 per packet
+press digit 2 , to continuous transmit packet , data increase 1 per packet
 
 ![image](https://github.com/released/RL78_F13_CAN/blob/main/MCU_TxBuffer_polling1.jpg)
 
 
-9. below is MCU transmit CAN bus data to PCAN 
-
-data increase 0x10 per packet
+press digit 3 , to continuous transmit packet , data increase 0x10 per packet
 
 ![image](https://github.com/released/RL78_F13_CAN/blob/main/MCU_TxBuffer_polling2.jpg)
 
