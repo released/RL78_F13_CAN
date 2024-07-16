@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<ClassCANParameters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArgCheck>false</ArgCheck>
+  <Device>
+    <SeriesName>RL78/F13</SeriesName>
+    <DeviceName>R5F10BXX</DeviceName>
+    <MainClock>20</MainClock>
+    <PClock>16</PClock>
+    <ChNum>1</ChNum>
+  </Device>
+  <GlobalSetting>
+    <TxPriority>ID_FIRST</TxPriority>
+    <DLCCheck>false</DLCCheck>
+    <DLCReplace>false</DLCReplace>
+    <Mirror>false</Mirror>
+    <CANClock>PCLOCK_2</CANClock>
+    <MainClock>20</MainClock>
+    <PClock>16</PClock>
+    <IntervalEnable>false</IntervalEnable>
+    <IntervalPr>1</IntervalPr>
+    <TSClock>PCLOCK_2</TSClock>
+    <TSPr>TS_NO_DIV</TSPr>
+    <DLCIE>false</DLCIE>
+    <MsgLostIE>false</MsgLostIE>
+  </GlobalSetting>
+  <RxBufNumber>4</RxBufNumber>
+  <RxFIFO Enable="true" StageNumber="DEPTH_4" RxIE="true" RxIntMode="THRESHOLD" Threshold="THRESHOLD_2_8" />
+  <RxFIFO Enable="false" StageNumber="DEPTH_4" RxIE="false" RxIntMode="THRESHOLD" Threshold="THRESHOLD_2_8" />
+  <ChUse>
+    <ChUse>true</ChUse>
+  </ChUse>
+  <ChInfo>
+    <ChInfo>
+      <Baudrate Baudrate="250" Prescaler="4" TSEG1="11" TSEG2="4" SJW="4" />
+      <TRFIFO Enable="true" TRFIFOMode="TX_MODE" StageNumber="DEPTH_4" TxBuf="3" TxIE="true" RxIE="false" TxRxIntMode="EACH_MSG" Threshold="THRESHOLD_2_8" IntervalEnable="false" IntervalClock="CAN_BIT_CLK" IntervalNum="1" />
+      <TxBuffer TxIEs="15" TxAbortIE="false" />
+      <RxRule>
+        <RuleList>
+          <RxRule IDE="ANY" RTR="ANY" ID="0" IDMask="0" DLCCheck="0" MirrorEnable="false" RxLabel="0" StoredArea="1" />
+        </RuleList>
+      </RxRule>
+      <ErrorInfo>
+        <ArbitrationLostIE>false</ArbitrationLostIE>
+        <DominantLockIE>false</DominantLockIE>
+        <OverloadFrameIE>false</OverloadFrameIE>
+        <BoffRecoveryIE>false</BoffRecoveryIE>
+        <BoffStartIE>false</BoffStartIE>
+        <PassiveIE>false</PassiveIE>
+        <WarningIE>false</WarningIE>
+        <PErrorIE>false</PErrorIE>
+        <BOffRecovery>ISO11898</BOffRecovery>
+        <ErrDisp>FIRST_ERR_ONLY</ErrDisp>
+      </ErrorInfo>
+    </ChInfo>
+  </ChInfo>
+</ClassCANParameters>

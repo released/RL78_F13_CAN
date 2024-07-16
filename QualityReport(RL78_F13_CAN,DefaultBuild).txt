@@ -1,0 +1,306 @@
+QualityReport
+2024年7月16日 下午 03:10:10
+
+------ Start build(RL78_F13_CAN, DefaultBuild) ------
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\ccrl.exe custom_func.c -cpu=S3 -o DefaultBuild\custom_func.obj "-dev=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF" -g -g_line -Onothing -I src\code_gen -I RSCANconf -I .\ -I . -lang=c99 -c -MAKEUD=DefaultBuild -exec_time=C:\Users\averyc\AppData\Local\Temp\CSPlusBuildTool_c4629168bc8d49d9bacb06e31e36c9ff3mhjqxkd.5g0 -msg_lang=english
+C:\Program Files (x86)\Renesas Electronics\CS+\CC\CC-RL\V1.13.00\Bin\rlink.exe -MAKEUD=DefaultBuild\RL78_F13_CAN.lk.ud -subcommand=DefaultBuild\RL78_F13_CAN.clnk
+W0561017:Paid license of CC-RL V1 is not found, and the evaluation period has expired. Please consider purchasing the product.
+RAMDATA SECTION:  000000b2 Byte(s)
+ROMDATA SECTION:  0000055b Byte(s)
+PROGRAM SECTION:  000041e7 Byte(s)
+W0561017:Paid license of CC-RL V1 is not found, and the evaluation period has expired. Please consider purchasing the product.
+Renesas Optimizing Linker Completed
+------ Build ended(Error:0, Warning:2)(RL78_F13_CAN, DefaultBuild) ------
+
+--- CommandFile 1 ---
+DefaultBuild\RL78_F13_CAN.clnk :
+-Input=DefaultBuild\cstart.obj
+-Input=DefaultBuild\stkinit.obj
+-Input=DefaultBuild\custom_func.obj
+-Input=DefaultBuild\misc_config.obj
+-Input=DefaultBuild\r_rl78_can_drv.obj
+-Input=DefaultBuild\RSCANlite.obj
+-Input=DefaultBuild\r_rl78_can.obj
+-Input=DefaultBuild\r_rl78_can_user.obj
+-Input=DefaultBuild\r_main.obj
+-Input=DefaultBuild\r_systeminit.obj
+-Input=DefaultBuild\r_cg_cgc.obj
+-Input=DefaultBuild\r_cg_cgc_user.obj
+-Input=DefaultBuild\r_cg_port.obj
+-Input=DefaultBuild\r_cg_port_user.obj
+-Input=DefaultBuild\r_cg_intc.obj
+-Input=DefaultBuild\r_cg_intc_user.obj
+-Input=DefaultBuild\r_cg_serial.obj
+-Input=DefaultBuild\r_cg_serial_user.obj
+-Input=DefaultBuild\r_cg_timer.obj
+-Input=DefaultBuild\r_cg_timer_user.obj
+-SECURITY_ID=00000000000000000000
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF
+-DEBug
+-NOCOmpress
+-NOOPtimize
+-OUtput=DefaultBuild\RL78_F13_CAN.abs
+-OCDBG=84
+-DEBUG_MONITOR=1FE00-1FFFF
+-USER_OPT_BYTE=E9FFE8
+-OCDTR
+-LISt=DefaultBuild\RL78_F13_CAN.map
+-SHow=Reference,Xreference,Total_size
+-AUTO_SECTION_LAYOUT
+-ROm=.data=.dataR
+-ROm=.sdata=.sdataR
+-NOMessage
+-Total_size
+-NOLOgo
+-LIBrary=DefaultBuild\RL78_F13_CAN.lib
+-end
+-Input=DefaultBuild\RL78_F13_CAN.abs
+-DEVICE=C:\Program Files (x86)\Renesas Electronics\CS+\CC\Device\RL78\Devicefile\DR5F10BMG.DVF
+-OUtput=DefaultBuild\RL78_F13_CAN.mot
+-FOrm=Stype
+-NOMessage
+-exit
+
+
+--- SHA1 hash value of output files ---
+D:\SourceCode\_Avery_Renesas\CS+\RL78_F13_CAN\DefaultBuild\RL78_F13_CAN.abs: b10d7fe4df79f6795e6c765fa88b98eaed3b3f21
+D:\SourceCode\_Avery_Renesas\CS+\RL78_F13_CAN\DefaultBuild\RL78_F13_CAN.mot: f57737fe0b747e8f9c9f0b5c7c2da09c3225f34d
+
+
+--- System Information ---
+*OS Version
+ Microsoft Windows 10 專業版 (-, 10.0.19045, WOW64)
+*Language
+ 中文(台灣)
+*.NET Framework Version
+ Microsoft .NET Framework 4 [.NET 4.8 or later] (528372)
+
+--- Application Information ---
+*Product Name
+ CS+ for CC
+*Package Version
+ V8.11.00  [30 Nov 2023]
+*Version
+ V9.11.00.04 [30 Oct 2023]
+*Assembly Version
+ 3.12.10.1
+*Sales Area
+ Global
+*Product License
+ 
+*Execution Place
+ C:\Program Files (x86)\Renesas Electronics\CS+\CC
+*Memory Usage
+ *Private Working Set
+  346 MB
+ *Number of GDI Objects
+  2453
+ *Number of USER Objects
+  1221
+ *Opened Files
+  8 editors, 8 files, 81 KB
+
+--- Build Tool Plug-in Information ---
+RH850 Build tool CC-RH Plug-in
+ *Version
+  V8.09.00.00 [07 Oct 2022]
+ *Assembly Version
+  1.1.10.12
+ *DLL File Name
+  BuildToolCCRH.dll
+RL78 Build tool CC-RL Plug-in
+ *Version
+  V8.11.00.00 [29 Sep 2023]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  BuildToolCCRL.dll
+RX Build tool CC-RX Plug-in
+ *Version
+  V8.09.00.00 [07 Oct 2022]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  BuildToolCCRX.dll
+RH850 Build tool GHS CCRH850 Plug-in
+ *Version
+  V1.08.00.00 [03 Apr 2023]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  BuildToolGHSCCRH850.dll
+
+--- Debug Tool Plug-in Information ---
+Debugger Collection Plug-in
+ *Version
+  V8.11.00.03 [21 Nov 2023]
+ *Assembly Version
+  2.12.10.1
+ *DLL File Name
+  DebugToolCollection.dll
+
+--- Other Plug-in Information ---
+Code Generator Plug-in for RH850
+ *Version
+  V1.02.02.05 [25 May 2018]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  CodeGeneratorRH850.dll
+Code Generator Plug-in
+ *Version
+  V4.08.06.01 [28 Oct 2022]
+ *Assembly Version
+  3.0.0.0
+ *DLL File Name
+  CodePart.dll
+Code Generator/PinView Plug-in
+ *Version
+  V2.10.07.02 [08 Nov 2021]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  CodePart2.dll
+Debug Console Plug-in
+ *Version
+  V8.09.00.03 [24 Nov 2022]
+ *Assembly Version
+  8.9.0.0
+ *DLL File Name
+  DebugConsole.dll
+Quick and Effective tool solution - QE
+ *Version
+  V9.11.00.03 [13 Oct 2023]
+ *Assembly Version
+  1.15.10.16
+ *DLL File Name
+  InCarTools.dll
+Pin Configurator Plug-in
+ *Version
+  V1.54.01.01 [31 Jul 2014]
+ *Assembly Version
+  1.6.10.23
+ *DLL File Name
+  PinConfig.dll
+Program Analyzer Plug-in
+ *Version
+  V4.13.00.03 [24 May 2023]
+ *Assembly Version
+  3.12.11.9
+ *DLL File Name
+  ProgramAnalyzer.dll
+IronPython Console Plug-in
+ *Version
+  V1.47.00.02 [01 Nov 2023]
+ *Assembly Version
+  1.6.10.23
+ *DLL File Name
+  PythonConsole.dll
+Editor plug-in DLL
+ *Version
+  V1.19.00.01 [24 Oct 2022]
+ *Assembly Version
+  1.1.0.0
+ *DLL File Name
+  SEditor.dll
+Smart Configurator for RH850 Communication Plug-in
+ *Version
+  V1.02.08.02 [30 Oct 2023]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  SmcCodePartRH850.dll
+Smart Configurator for RL78 Communication Plug-in
+ *Version
+  V1.00.08.03 [20 Nov 2023]
+ *Assembly Version
+  1.0.0.0
+ *DLL File Name
+  SmcCodePartRL78.dll
+Stack Usage Tracer
+ *Version
+  V1.05.00.02 [30 Jul 2014]
+ *Assembly Version
+  1.30.11.15
+ *DLL File Name
+  Stk.dll
+Update Manager Plug-in
+ *Version
+  V2.03.00.02 [29 Oct 2018]
+ *Assembly Version
+  1.13.6.20
+ *DLL File Name
+  Update.dll
+
+Debug Tool Common Interface
+ *Version
+  V8.11.00.03 [21 Nov 2023]
+ *Assembly Version
+  3.12.10.1
+ *DLL File Name
+  CommonDebuggerInterface.dll
+Device Information Common Interface
+ *Version
+  V9.11.00.03 [13 Oct 2023]
+ *Assembly Version
+  3.0.0.0
+ *DLL File Name
+  DeviceInformation.dll
+
+--- Main Project Information ---
+D:\SourceCode\_Avery_Renesas\CS+\RL78_F13_CAN\RL78_F13_CAN.mtpj
+Microcontroller Information
+ *R5F10BMG
+  *File Name: Version
+   RL78_Productlist.xml: V8.110000
+   R5F10BMG_common.xml: V1.13.00.XX.02
+   DR5F10BMG.DVF: V1.11
+   f13_bmx.ti: V1.02
+   -: -
+  
+
+Build Tool Information
+ *CC-RL
+   * Version of plug-in(*.dll)
+     V8.11.00.02 [27 Oct 2023]
+   * The Version of the Compiler Package
+     V1.13.00
+  
+ * The version of SMS Assembler
+   V1.00.00.01 [29 May 2020]
+ * The version of GREEN_DSP Structured Assembler 
+   V1.04.02
+ 
+
+Debug Tool Information
+ *RL78 E2 Lite
+  Debugger Library V8.11.00.03 [21 Nov 2023]
+  RL78 E2 Lite Executor V4.12d [18 Oct 2023]
+  E2 Lite 4100 A F/W V07.05
+  
+
+Other Tool Information
+ *None
+
+ *None
+
+ *None
+
+ *Pin Configurator
+ *Program Analyzer
+  *Version
+   V4.13.00.03 [24 May 2023]
+
+ *None
+
+ *None
+
+ *Code Generator
+Other Information
+ *RL78/F13 Code Library
+  *Version
+   V2.03.07.02 [08 Nov 2021]
+  *Description
+   Code library for RL78/F13 code generation plugin.
+
+
