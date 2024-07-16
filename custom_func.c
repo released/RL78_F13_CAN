@@ -478,6 +478,8 @@ void hardware_init(void)
     R_TAU0_Channel1_Start();  
     R_INTC0_Start();            // BUTTON , P137 
     
+    // RL78 F13 EVB - CAN transceiver PIN#8 , pull low
+    P1_bit.no2 = 0;
     R_CAN_Create();             // CAN , P1.0/CTXD0 , P1.1/CRXD0
     
     // check_reset_source();

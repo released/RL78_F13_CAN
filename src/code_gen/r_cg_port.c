@@ -23,7 +23,7 @@
 * Device(s)    : R5F10BMG
 * Tool-Chain   : CCRL
 * Description  : This file implements device driver for PORT module.
-* Creation Date: 2024/7/10
+* Creation Date: 2024/7/16
 ***********************************************************************************************************************/
 
 /***********************************************************************************************************************
@@ -55,11 +55,11 @@ Global variables and functions
 ***********************************************************************************************************************/
 void R_PORT_Create(void)
 {
-    P1 = _01_Pn0_OUTPUT_1;
+    P1 = _01_Pn0_OUTPUT_1 | _00_Pn2_OUTPUT_0;
     P6 = _40_Pn6_OUTPUT_1 | _00_Pn7_OUTPUT_0;
     POM6 = _04_POMn2_NCH_ON | _08_POMn3_NCH_ON;
-    PSRSEL = _00_PSR10_NORMAL;
-    PM1 = _00_PMn0_MODE_OUTPUT | _02_PMn1_MODE_INPUT | _04_PMn2_NOT_USE | _08_PMn3_NOT_USE | _10_PMn4_NOT_USE |
+    PSRSEL = _00_PSR12_NORMAL | _00_PSR10_NORMAL;
+    PM1 = _00_PMn0_MODE_OUTPUT | _02_PMn1_MODE_INPUT | _00_PMn2_MODE_OUTPUT | _08_PMn3_NOT_USE | _10_PMn4_NOT_USE |
           _20_PMn5_NOT_USE | _40_PMn6_NOT_USE | _80_PMn7_NOT_USE;
     PM6 = _01_PMn0_NOT_USE | _02_PMn1_NOT_USE | _04_PMn2_NOT_USE | _08_PMn3_NOT_USE | _10_PMn4_NOT_USE |
           _20_PMn5_NOT_USE | _00_PMn6_MODE_OUTPUT | _00_PMn7_MODE_OUTPUT;

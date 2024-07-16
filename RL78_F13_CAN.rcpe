@@ -520,7 +520,7 @@
         &lt;Port1 Chip="RL78F13_30pin,RL78F13_32pin,RL78F13_48pin,RL78F13_64pin,RL78F13_80pin" Pullup="true"&gt;
           &lt;P10 Name="P10/TI13/TO13/TRJO0/_SCK10/SCL10/LTXD1/CTXD0" Chip="groupb,groupc1,groupc2" TTL="true" PITHL="true" Nch="true" AltFunc="P10" Point="I/O" /&gt;
           &lt;P11 Name="P11/TI12/TO12/TRDIOB0/SI10/SDA10/RXD1/LRXD1/CRXD0" Chip="groupb,groupc1,groupc2" TTL="true" PITHL="true" Nch="true" AltFunc="P11" Point="I/O" /&gt;
-          &lt;P12 Name="P12/TI11/TO11/TRDIOD0/INTP5/SO10/TXD1/SNZOUT3" Chip="groupb,groupc1,groupc2" Nch="true" AltFunc="" Point="I/O" /&gt;
+          &lt;P12 Name="P12/TI11/TO11/TRDIOD0/INTP5/SO10/TXD1/SNZOUT3" Chip="groupb,groupc1,groupc2" Nch="true" AltFunc="P12" Point="I/O" /&gt;
           &lt;P13 Name="P13/TI04/TO04/TRDIOA0/TRDCLK0/SI01/SDA01/LTXD0" TTL="true" PITHL="true" Nch="true" AltFunc="" Point="I/O" /&gt;
           &lt;P14 Name="P14/TI06/TO06/TRDIOC0/_SCK01/SCL01/LRXD0" TTL="true" PITHL="true" Nch="true" AltFunc="" Point="I/O" /&gt;
           &lt;P15 Name="P15/TI05/TO05/TRDIOA1/TRDIOA0/TRDCLK0/SO00/TXD0/TOOLTXD/RTC1HZ" Nch="true" AltFunc="TXD0" Point="I/O" /&gt;
@@ -1935,9 +1935,9 @@
           &lt;setting name="PSRSEL" value="false" /&gt;
         &lt;/P11&gt;
         &lt;P12&gt;
-          &lt;setting name="MODULE_UNUSED" value="true" /&gt;
+          &lt;setting name="MODULE_UNUSED" value="false" /&gt;
           &lt;setting name="INPUT_MODE" value="false" /&gt;
-          &lt;setting name="OUTPUT_MODE" value="false" /&gt;
+          &lt;setting name="OUTPUT_MODE" value="true" /&gt;
           &lt;setting name="PULLUP_ON" value="false" /&gt;
           &lt;setting name="NCH_ON" value="false" /&gt;
           &lt;setting name="OUTPUT_1" value="false" /&gt;

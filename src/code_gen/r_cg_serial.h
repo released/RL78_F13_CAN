@@ -23,7 +23,7 @@
 * Device(s)    : R5F10BMG
 * Tool-Chain   : CCRL
 * Description  : This file implements device driver for Serial module.
-* Creation Date: 2024/7/10
+* Creation Date: 2024/7/16
 ***********************************************************************************************************************/
 
 #ifndef SERIAL_H

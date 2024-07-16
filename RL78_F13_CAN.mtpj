@@ -304,29 +304,29 @@
       <SourceItemType2>CSource</SourceItemType2>
       <SourceItemGuid3>f9e6ab3a-0e29-4c19-8da7-ab70d1019611</SourceItemGuid3>
       <SourceItemType3>CSource</SourceItemType3>
-      <SourceItemGuid4>3ccfe190-c0e6-4d16-b091-62c5eed26549</SourceItemGuid4>
+      <SourceItemGuid4>aa606318-56a7-4e10-ac8f-18505752e1fc</SourceItemGuid4>
       <SourceItemType4>CSource</SourceItemType4>
-      <SourceItemGuid5>f6a98cc1-31a4-4419-affb-565a94f25cb7</SourceItemGuid5>
+      <SourceItemGuid5>1d304d06-1134-4cb7-8a4a-438c1736fa0b</SourceItemGuid5>
       <SourceItemType5>CSource</SourceItemType5>
-      <SourceItemGuid6>d0d7261d-bb52-43a2-9ba6-03dc13afefb3</SourceItemGuid6>
+      <SourceItemGuid6>50a3ff16-edee-4511-80da-e8cfe8d6450f</SourceItemGuid6>
       <SourceItemType6>CSource</SourceItemType6>
-      <SourceItemGuid7>e107f336-be92-4885-9c5c-f7d83ec5bd2e</SourceItemGuid7>
+      <SourceItemGuid7>f813f5eb-d405-4d18-9521-83732189d279</SourceItemGuid7>
       <SourceItemType7>CSource</SourceItemType7>
-      <SourceItemGuid8>2ccc5fee-be85-45b5-941b-532776751b90</SourceItemGuid8>
+      <SourceItemGuid8>b92e5a50-1eeb-4df8-836c-0b7b11494aa7</SourceItemGuid8>
       <SourceItemType8>CSource</SourceItemType8>
-      <SourceItemGuid9>27e39be1-b7e9-4055-a17a-fcc75ea17ca0</SourceItemGuid9>
+      <SourceItemGuid9>c476bb0e-1e36-4d2a-a7df-e8ded31e59dd</SourceItemGuid9>
       <SourceItemType9>CSource</SourceItemType9>
-      <SourceItemGuid10>c476bb0e-1e36-4d2a-a7df-e8ded31e59dd</SourceItemGuid10>
+      <SourceItemGuid10>27e39be1-b7e9-4055-a17a-fcc75ea17ca0</SourceItemGuid10>
       <SourceItemType10>CSource</SourceItemType10>
-      <SourceItemGuid11>b92e5a50-1eeb-4df8-836c-0b7b11494aa7</SourceItemGuid11>
+      <SourceItemGuid11>2ccc5fee-be85-45b5-941b-532776751b90</SourceItemGuid11>
       <SourceItemType11>CSource</SourceItemType11>
-      <SourceItemGuid12>f813f5eb-d405-4d18-9521-83732189d279</SourceItemGuid12>
+      <SourceItemGuid12>e107f336-be92-4885-9c5c-f7d83ec5bd2e</SourceItemGuid12>
       <SourceItemType12>CSource</SourceItemType12>
-      <SourceItemGuid13>50a3ff16-edee-4511-80da-e8cfe8d6450f</SourceItemGuid13>
+      <SourceItemGuid13>d0d7261d-bb52-43a2-9ba6-03dc13afefb3</SourceItemGuid13>
       <SourceItemType13>CSource</SourceItemType13>
-      <SourceItemGuid14>1d304d06-1134-4cb7-8a4a-438c1736fa0b</SourceItemGuid14>
+      <SourceItemGuid14>f6a98cc1-31a4-4419-affb-565a94f25cb7</SourceItemGuid14>
       <SourceItemType14>CSource</SourceItemType14>
-      <SourceItemGuid15>aa606318-56a7-4e10-ac8f-18505752e1fc</SourceItemGuid15>
+      <SourceItemGuid15>3ccfe190-c0e6-4d16-b091-62c5eed26549</SourceItemGuid15>
       <SourceItemType15>CSource</SourceItemType15>
       <SourceItemGuid16>a845596f-4552-4389-8c4f-6409eebdeda3</SourceItemGuid16>
       <SourceItemType16>CSource</SourceItemType16>
@@ -3488,7 +3488,7 @@ RSCANconf
       <KeyPinGridData48>Free,-,-,,</KeyPinGridData48>
       <KeyPinGridData49>Free,-,-,,</KeyPinGridData49>
       <KeyPinGridData50>Free,-,-,,</KeyPinGridData50>
-      <KeyPinGridData51>Free,-,-,,</KeyPinGridData51>
+      <KeyPinGridData51>P12,O,No,,</KeyPinGridData51>
       <KeyPinGridData52>P11,I,-,,</KeyPinGridData52>
       <KeyPinGridData53>P10,O,No,,</KeyPinGridData53>
       <KeyPinGridData54>Free,-,-,,</KeyPinGridData54>
@@ -3548,7 +3548,7 @@ RSCANconf
       <KeyMacGridData28>Free,-,-,,</KeyMacGridData28>
       <KeyMacGridData29>Free,-,-,,</KeyMacGridData29>
       <KeyMacGridData30>Free,-,-,,</KeyMacGridData30>
-      <KeyMacGridData31>Free,-,-,,</KeyMacGridData31>
+      <KeyMacGridData31>P12,O,No,,</KeyMacGridData31>
       <KeyMacGridData32>Free,-,-,,</KeyMacGridData32>
       <KeyMacGridData33>Free,-,-,,</KeyMacGridData33>
       <KeyMacGridData34>Free,-,-,,</KeyMacGridData34>
@@ -3601,7 +3601,7 @@ RSCANconf
       <KeyMacGridData81>TXD0,O,No,,</KeyMacGridData81>
       <KeyMacGridData82>Free,-,-,,</KeyMacGridData82>
       <KeyMacGridData83>Free,-,-,,</KeyMacGridData83>
-      <KeyMacGridData84>Free,-,-,,</KeyMacGridData84>
+      <KeyMacGridData84>P12,O,No,,</KeyMacGridData84>
       <KeyMacGridData85>P11,I,-,,</KeyMacGridData85>
       <KeyMacGridData86>Free,-,-,,</KeyMacGridData86>
       <KeyMacGridData87>Free,-,-,,</KeyMacGridData87>
@@ -3632,14 +3632,14 @@ RSCANconf
       <KeyMacGridData112>Free,-,-,,</KeyMacGridData112>
       <KeyMacGridData113>Free,-,-,,</KeyMacGridData113>
       <KeyMacGridData114>Free,-,-,,</KeyMacGridData114>
-      <KeyMacGridData115>Free,-,-,,</KeyMacGridData115>
+      <KeyMacGridData115>P12,O,No,,</KeyMacGridData115>
       <KeyMacGridData116>P11,I,-,,</KeyMacGridData116>
       <KeyMacGridData117>P10,O,No,,</KeyMacGridData117>
       <KeyMacGridData118>Free,-,-,,</KeyMacGridData118>
       <KeyMacGridData119>Free,-,-,,</KeyMacGridData119>
       <KeyMacGridData120>Free,-,-,,</KeyMacGridData120>
       <KeyMacGridData121>Free,-,-,,</KeyMacGridData121>
-      <KeyMacGridData122>Free,-,-,,</KeyMacGridData122>
+      <KeyMacGridData122>P12,O,No,,</KeyMacGridData122>
       <KeyMacGridData123>P11,I,-,,</KeyMacGridData123>
       <KeyMacGridData124>P10,O,No,,</KeyMacGridData124>
       <KeyMacGridData125>Free,-,-,,</KeyMacGridData125>
@@ -3701,14 +3701,14 @@ RSCANconf
       <KeyMacGridData181>Free,-,-,,</KeyMacGridData181>
       <KeyMacGridData182>INTP11,I,-,,</KeyMacGridData182>
       <KeyMacGridData183>Free,-,-,,</KeyMacGridData183>
-      <KeyMacGridData184>Free,-,-,,</KeyMacGridData184>
+      <KeyMacGridData184>P12,O,No,,</KeyMacGridData184>
       <KeyMacGridData185>Free,-,-,,</KeyMacGridData185>
       <KeyMacGridData186>Free,-,-,,</KeyMacGridData186>
       <KeyMacGridData187>RXD0,I,-,,</KeyMacGridData187>
       <KeyMacGridData188>TXD0,O,No,,</KeyMacGridData188>
       <KeyMacGridData189>Free,-,-,,</KeyMacGridData189>
       <KeyMacGridData190>Free,-,-,,</KeyMacGridData190>
-      <KeyMacGridData191>Free,-,-,,</KeyMacGridData191>
+      <KeyMacGridData191>P12,O,No,,</KeyMacGridData191>
       <KeyMacGridData192>P11,I,-,,</KeyMacGridData192>
       <KeyMacGridData193>P10,O,No,,</KeyMacGridData193>
       <KeyMacGridData194>TOOL0,I/O,-,,</KeyMacGridData194>
@@ -4345,7 +4345,7 @@ RSCANconf
         &lt;Port1 Chip="RL78F13_30pin,RL78F13_32pin,RL78F13_48pin,RL78F13_64pin,RL78F13_80pin" Pullup="true"&gt;
           &lt;P10 Name="P10/TI13/TO13/TRJO0/_SCK10/SCL10/LTXD1/CTXD0" Chip="groupb,groupc1,groupc2" TTL="true" PITHL="true" Nch="true" AltFunc="P10" Point="I/O" /&gt;
           &lt;P11 Name="P11/TI12/TO12/TRDIOB0/SI10/SDA10/RXD1/LRXD1/CRXD0" Chip="groupb,groupc1,groupc2" TTL="true" PITHL="true" Nch="true" AltFunc="P11" Point="I/O" /&gt;
-          &lt;P12 Name="P12/TI11/TO11/TRDIOD0/INTP5/SO10/TXD1/SNZOUT3" Chip="groupb,groupc1,groupc2" Nch="true" AltFunc="" Point="I/O" /&gt;
+          &lt;P12 Name="P12/TI11/TO11/TRDIOD0/INTP5/SO10/TXD1/SNZOUT3" Chip="groupb,groupc1,groupc2" Nch="true" AltFunc="P12" Point="I/O" /&gt;
           &lt;P13 Name="P13/TI04/TO04/TRDIOA0/TRDCLK0/SI01/SDA01/LTXD0" TTL="true" PITHL="true" Nch="true" AltFunc="" Point="I/O" /&gt;
           &lt;P14 Name="P14/TI06/TO06/TRDIOC0/_SCK01/SCL01/LRXD0" TTL="true" PITHL="true" Nch="true" AltFunc="" Point="I/O" /&gt;
           &lt;P15 Name="P15/TI05/TO05/TRDIOA1/TRDIOA0/TRDCLK0/SO00/TXD0/TOOLTXD/RTC1HZ" Nch="true" AltFunc="TXD0" Point="I/O" /&gt;
@@ -5760,9 +5760,9 @@ RSCANconf
           &lt;setting name="PSRSEL" value="false" /&gt;
         &lt;/P11&gt;
         &lt;P12&gt;
-          &lt;setting name="MODULE_UNUSED" value="true" /&gt;
+          &lt;setting name="MODULE_UNUSED" value="false" /&gt;
           &lt;setting name="INPUT_MODE" value="false" /&gt;
-          &lt;setting name="OUTPUT_MODE" value="false" /&gt;
+          &lt;setting name="OUTPUT_MODE" value="true" /&gt;
           &lt;setting name="PULLUP_ON" value="false" /&gt;
           &lt;setting name="NCH_ON" value="false" /&gt;
           &lt;setting name="OUTPUT_1" value="false" /&gt;
